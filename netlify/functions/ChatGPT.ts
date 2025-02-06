@@ -9,7 +9,8 @@ export default class ChatGPT {
     constructor(requestModel: string, requestAuthorization: string, requestMessages: any) {
         this.model = requestModel;
         this.authorization = requestAuthorization;
-        this.url = 'https://api.openai.com/v1/chat/completions';
+        // this.url = 'https://api.openai.com/v1/chat/completions';
+        this.url = 'https://api.chatanywhere.tech/v1/chat/completions';
         this.formatHeaders();
         try {
             this.formatBody(requestMessages);

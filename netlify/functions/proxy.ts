@@ -17,7 +17,8 @@ const APIKEY360 = "";
 const supportedModels = {
     'gpt-3.5-turbo': ChatGPT,
     'gpt-4': ChatGPT,
-    'GPT-4o': ChatGPT,
+    'gpt-4o': ChatGPT,
+    'gpt-4o-mini': ChatGPT,
     'gemini-pro': Gemini,
     'gemini': Gemini,
     'gemini-1.5-pro-latest': Gemini,
